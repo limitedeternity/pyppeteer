@@ -45,8 +45,9 @@ requirements = [
     'pyee<6',
     'websockets',
     'appdirs',
-    'urllib3<1.25',
-    'tqdm'
+    'urllib3',
+    'tqdm',
+    'certifi'
 ]
 
 test_requirements = [
@@ -56,7 +57,7 @@ test_requirements = [
 
 setup(
     name='pyppeteer',
-    version='0.0.25',
+    version='0.0.26',
     description=('Headless chrome/chromium automation library '
                  '(unofficial port of puppeteer)'),
     long_description=readme,
